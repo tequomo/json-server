@@ -2,7 +2,7 @@ const jsonServer = require('json-server');
 const { initDatabase } = require('./database/database');
 const { initCustomRoutes } = require('./routes/routes');
 
-const PORT = 3001;
+const PORT = 3000;
 
 const server = jsonServer.create();
 const router = jsonServer.router(initDatabase());
