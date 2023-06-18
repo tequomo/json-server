@@ -1,7 +1,8 @@
 {
   "functions": {
     "server/server.js": {
-      "memory": 1024
+      "memory": 1024,
+      "includeFiles": "./server/database/quests/quests.json"
     }
   },
   "rewrites": [
